@@ -1,4 +1,4 @@
-app = 'ipay9-bot'
+app = 'mrboom9-bot'
 primary_region = 'sin'
 
 [build]
@@ -13,7 +13,7 @@ primary_region = 'sin'
   app = 'python bot.py'
 
 [[mounts]]
-  source = 'ipay9_bot_data'
+  source = 'mrboom9_bot_data'
   destination = '/data'
 
 [[vm]]

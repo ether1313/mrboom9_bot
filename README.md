@@ -1,4 +1,4 @@
-# Ipay9 Promo Bot 🎰
+# Mrboom9 Promo Bot 🎰
 
 A full-featured Telegram marketing bot with custom keyboard, promotional messages, admin management, and bulk messaging capabilities.
 
@@ -59,7 +59,7 @@ python bot.py
 ## 📁 Project Structure
 
 ```
-ipay9_bot/
+mrboom9_bot/
 ├── bot.py              # Main bot file with all handlers
 ├── config.py           # Configuration file with environment variables
 ├── requirements.txt    # Python dependencies
@@ -93,7 +93,7 @@ ipay9_bot/
 
 ### Button Functions
 
-1. **GET FREE SPIN ON IPAY9 🎰** - Shows free spin promotional information with inline buttons:
+1. **GET FREE SPIN ON MRBOOM9 🎰** - Shows free spin promotional information with inline buttons:
    - `CHEKC FREE SPIN ON WEB 🎁` - Links to free spin URL
    - `TELEGRAM CHANNEL ❤️` - Links to Telegram channel
 
@@ -121,9 +121,9 @@ The bot prioritizes forwarding messages to preserve Premium emoji and formatting
 All configuration is done through environment variables or `.env` file:
 
 - `BOT_TOKEN` (Required) - Telegram Bot Token from @BotFather
-- `TELEGRAM_CHANNEL` (Optional) - Telegram channel URL (default: `https://t.me/ipay9`)
-- `FREE_SPIN_URL` (Optional) - Free spin promotion URL (default: `https://ipay9.com/RFIPAY9BOT9`)
-- `FREE_CREDIT_URL` (Optional) - Free credit promotion URL (default: `https://ipay9.com/RFIPAY9BOT9`)
+- `TELEGRAM_CHANNEL` (Optional) - Telegram channel URL (default: `https://t.me/mrboom9`)
+- `FREE_SPIN_URL` (Optional) - Free spin promotion URL (default: `https://mrboom9.com/RFMRBOOM9BOT9`)
+- `FREE_CREDIT_URL` (Optional) - Free credit promotion URL (default: `https://mrboom9.com/RFMRBOOM9BOT9`)
 - `DATA_DIR` (Optional) - Directory for data files (default: `/data` for Fly.io, current directory for local)
 
 ### Customization
@@ -162,8 +162,8 @@ python bot.py
 Build and run with Docker:
 
 ```bash
-docker build -t ipay9-bot .
-docker run -d --env-file .env ipay9-bot
+docker build -t mrboom9-bot .
+docker run -d --env-file .env mrboom9-bot
 ```
 
 ### Fly.io Deployment
@@ -173,7 +173,7 @@ This bot is configured for deployment on Fly.io. See `DEPLOY.md` for detailed de
 **Quick deployment steps:**
 
 1. Install Fly CLI and login: `fly auth login`
-2. Create volume: `fly volumes create ipay9_bot_data --size 1 --region sin`
+2. Create volume: `fly volumes create mrboom9_bot_data --size 1 --region sin`
 3. Set secrets: `fly secrets set BOT_TOKEN="your_token"`
 4. Deploy: `fly deploy`
 
@@ -218,4 +218,4 @@ MIT License
 
 ---
 
-**Ipay9 Promo Bot** - Making marketing simpler! 🚀
+**Mrboom9 Promo Bot** - Making marketing simpler! 🚀

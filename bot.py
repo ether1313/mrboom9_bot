@@ -121,7 +121,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Create custom keyboard (bottom buttons) - only menu options
     keyboard = [
         [
-            KeyboardButton(text="GET FREE SPIN ON IPAY9 🎰"),
+            KeyboardButton(text="GET FREE SPIN ON MRBOOM9 🎰"),
             KeyboardButton(text="HOT GAME TIPS CHANNEL 🍒")
         ]
     ]
@@ -136,17 +136,15 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_get_free_spin(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle GET FREE SPIN button click"""
-    promo_text = """Welcome to IPAY9, Your Daily Slot & Mini-Game Destination 🇦🇺
+    promo_text = """Welcome to MrBoom9, Where Every Spin Sparks Excitement 🇦🇺
 
-🎉 IPAY9 is now open for new players with free rewards and bonus opportunities.
-🎰 Start with a 50% welcome bonus, a $10 free trial, and enjoy daily 50% special bonuses.
-💰 Deposit bonuses are available up to $199.99.
+💎 MrBoom9 invites you to a superior gaming experience.
+🎰 Sign up today and unlock A$399.99 in FREE bonus funds.
+🎡 Daily spins. Massive rewards up to A$999.
 
-🇦🇺 Enjoy free credits, daily bonuses, and special promotions designed for new and regular players.
-✨ Start easily with a low minimum deposit and boost your balance with welcome and daily rewards.
-🎮 No Complicated Steps — just straightforward online fun and consistent bonuses.
+🔥 Activate your 100% matched deposit and enjoy VIP luxury — weekly bonuses up to A$1,099 plus exclusive high-limit tables.
 
-🔥🚀 Log in today and explore the latest games, including the popular Plinko mini-game at iPAY9."""
+🔥🚀 Play Premium. Win Premium. Now at MrBoom9 💣"""
     
     # Create inline buttons (vertical layout - each button on its own row)
     inline_keyboard = [
@@ -169,15 +167,14 @@ async def handle_get_free_spin(update: Update, context: ContextTypes.DEFAULT_TYP
 
 async def handle_hot_game_tips(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle HOT GAME TIPS CHANNEL button click"""
-    channel_text = """🇦🇺 Play Smart. Enjoy More. Only at IPAY9 🎰
+    channel_text = """🇦🇺 Play Premium. Win Premium. Now at MrBoom9 💣
 
-🎁 Free credits and daily bonus rewards available.
-🎉 Welcome bonuses and weekly promotions.
-💰 Low minimum deposit to get started.
-🎯 Try fun games like Slots and Plinko for quick entertainment.
-🔒 Fair play, clear terms, and friendly support.
+🎁 Grab A$299 FREE Instantly — No Deposit Required.
+💎 Members-Only Random Second Withdraw.
+👑 7% Weekly Cashback.
+✨ Elite Slots. Fair Play. Instant Payouts.
 
-🇦🇺 Join IPAY9 today and check your bonus page — rewards may already be waiting for you."""
+🇦🇺 Register at MrBoom9 today and check your bonus dashboard — spins and surprises may be waiting."""
     
     # Create inline buttons (vertical layout - each button on its own row)
     inline_keyboard = [
@@ -776,7 +773,7 @@ def main():
     application.add_error_handler(error_handler)
     
     # Start Bot
-    logger.info("IPAY9 Promo Bot is starting...")
+    logger.info("MRBOOM9 Promo Bot is starting...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 

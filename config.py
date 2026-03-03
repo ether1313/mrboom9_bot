@@ -7,7 +7,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8304481697:AAGZN7VNPj65y71Z5JqBEMPVNx6liVS4Qak")
 
 # Channel and link configuration
-TELEGRAM_CHANNEL = os.getenv("TELEGRAM_CHANNEL", "https://t.me/MRBOOM9AUS")
+TELEGRAM_CHANNEL = os.getenv("TELEGRAM_CHANNEL", "https://t.me/Mrboom9au")
 FREE_SPIN_URL = os.getenv("FREE_SPIN_URL", "https://mrboom9.com/RFMRBOOMTLGBOT")
 FREE_CREDIT_URL = os.getenv("FREE_CREDIT_URL", "https://mrboom9.com/RFMRBOOMTLGBOT")
 
